@@ -1,20 +1,22 @@
 
+
+/* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
-  .trailer-video iframe {
-    width: 100%; 
-    height: auto; 
-  }
+    .trailer-video iframe {
+        width: 100%; /* Ajusta el ancho al 100% del contenedor */
+        height: auto; /* Mantiene la proporción del video */
+    }
 }
 
-
+/* Media query para pantallas muy pequeñas (móviles) */
 @media (max-width: 480px) {
-  .trailer-video iframe {
-    width: 100%; 
-    height: auto; 
-  }
+    .trailer-video iframe {
+        width: 100%; /* Mantiene el ancho al 100% del contenedor */
+        height: auto; /* Mantiene la proporción del video */
+    }
 
-  .trailer-section h2 {
-    font-size: 24px; 
-    margin-bottom: 15px;
-  }
+    .trailer-section h2 {
+        font-size: 24px; /* Reduce el tamaño del título en pantallas pequeñas */
+        margin-bottom: 15px;
+    }
 }
